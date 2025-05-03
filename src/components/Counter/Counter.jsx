@@ -11,7 +11,7 @@ import {
   selectGlobalCounter,
   selectStatus,
   selectGlobalStatus,
-} from '../../store/counter/counterSlice'
+} from '../../store/reducers/counterReducer'
 
 function Counter() {
   const [amount, setAmount] = useState(0)
